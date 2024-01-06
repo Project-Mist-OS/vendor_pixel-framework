@@ -108,8 +108,8 @@
             android:key="livedisplay"
             android:title="@*android:string/live_display_title"
             android:summary="@string/live_display_summary"
-            android:fragment="com.android.settings.cherish.livedisplay.LiveDisplaySettings"
-            settings:controller="com.android.settings.cherish.livedisplay.LiveDisplayController" />
+            android:fragment="com.android.settings.mist.livedisplay.LiveDisplaySettings"
+            settings:controller="com.android.settings.mist.livedisplay.LiveDisplayController" />
 
         <Preference
             android:key="color_mode"
@@ -184,19 +184,19 @@
             settings:controller="com.google.android.settings.touch.TouchSensitivityPreferenceController"
             settings:keywords="@string/keywords_touch_sensitivity" />
 
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        <com.mist.settings.preferences.SystemSettingSwitchPreference
             android:key="high_touch_polling_rate_enable"
             android:title="@string/high_touch_polling_rate_title"
             android:summary="@string/high_touch_polling_rate_summary"
             android:defaultValue="false"
-            settings:controller="com.android.settings.cherish.touch.HighTouchPollingRateSettingsPreferenceController" />
+            settings:controller="com.android.settings.mist.touch.HighTouchPollingRateSettingsPreferenceController" />
 
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        <com.mist.settings.preferences.SystemSettingSwitchPreference
             android:key="high_touch_sensitivity_enable"
             android:title="@string/high_touch_sensitivity_title"
             android:summary="@string/high_touch_sensitivity_summary"
             android:defaultValue="false"
-            settings:controller="com.android.settings.cherish.touch.HighTouchSensitivitySettingsPreferenceController" />
+            settings:controller="com.android.settings.mist.touch.HighTouchSensitivitySettingsPreferenceController" />
 
         <SwitchPreference
             android:key="pocket_judge"
@@ -223,7 +223,7 @@
             android:title="@string/tap_to_wake"
             android:summary="@string/tap_to_wake_summary" />
 
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        <com.mist.settings.preferences.SystemSettingSwitchPreference
             android:key="proximity_on_wake"
             android:title="@string/proximity_wake_title"
             android:summary="@string/proximity_wake_summary"
