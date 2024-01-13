@@ -4,7 +4,7 @@
     android:key="gesture_navigation_settings_page"
     android:title="@string/gesture_settings_activity_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+    <com.mist.settings.preferences.SystemSettingSwitchPreference
         android:key="navigation_bar_hint"
         android:title="@string/hide_navbar_gesture_bar_title"
         android:summary="@string/hide_navbar_gesture_bar_summary"
@@ -32,17 +32,17 @@
         android:selectable="true"
         settings:textStart="@string/back_height_low_label"
         settings:textEnd="@string/back_height_high_label" />
-    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+    <com.mist.settings.preferences.SecureSettingSwitchPreference
         android:key="back_gesture_arrow"
         android:title="@string/back_gesture_arrow_title"
         android:summary="@string/back_gesture_arrow_summary"
         android:defaultValue="true" />
-    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+    <com.mist.settings.preferences.SecureSettingSwitchPreference
         android:key="back_gesture_haptic"
         android:title="@string/back_gesture_haptic_title"
         android:summary="@string/back_gesture_haptic_summary"
         android:defaultValue="true" />
-    <com.cherish.settings.preferences.SystemSettingListPreference
+    <com.mist.settings.preferences.SystemSettingListPreference
         android:key="navigation_bar_ime_space"
         android:title="@string/navigation_bar_ime_space_title"
         android:entries="@array/navigation_bar_ime_space_entries"

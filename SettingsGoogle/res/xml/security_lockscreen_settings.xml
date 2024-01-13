@@ -67,7 +67,7 @@
             settings:keywords="@string/keywords_always_show_time_info"
             settings:userRestriction="no_ambient_display" />
 
-        <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        <com.mist.settings.preferences.SecureSettingSwitchPreference
             android:key="doze_on_charge"
             android:title="@string/doze_on_charge_title"
             android:summary="@string/doze_on_charge_summary"
